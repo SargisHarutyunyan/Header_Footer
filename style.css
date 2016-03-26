@@ -1,0 +1,78 @@
+* {
+    margin : 0;
+    padding : 0;
+    border : 0;
+}
+
+ul {
+
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #55B59A;
+    box-shadow: 7px 7px 4px  #888888;
+    font-size: 25px;
+    padding-left: 80px;
+}
+
+li {
+
+    float: left;
+
+}
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+
+    border: 1px solid white;
+    background-color: #00cc99;
+    box-shadow: 7px 7px 4px #808080;
+}
+
+
+input[type=button] {
+
+    display: block;
+    width: 80px;
+    border: 2px solid ;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #55B59A;
+    padding: 4px 4px 4px 4px;
+   
+}
+
+
+input[type=text] {
+
+    display: block;
+    width: 90px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #55B59A;
+    background-image: url('searchicon.png');
+    padding: 10px 15px 10px 30px;
+    transition: width 1.5s;
+}
+
+input[type=text]:focus {
+    width: 100%;
+     border: 2px solid #33ccff;
+}
+
+input[type=text]:hover{
+
+    border: 2px solid #33ccff;
+}
+#search_id{
+    display: block;
+}
